@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project</title>
+</head>
+<body>
+    <header>
+    <h1>🍔Welcome to TuteDude🍔</h1>
+    <p><i>A project designed by <b>TuteDude</b> to learn HTML</i></p>
+    <p>Best TuteDude in town since 2021</p>
+    <p><ul>
+        <li><a href="#">AboutTD</a></li>
+        <li><a href="#">Our Menu</a></li>
+        <li><a href="#">Taco Triva</a></li>
+        <li><a href="#">Extras</a></li>
+        <li><a href="#">Feedback Form</a></li>
+        <li><a href="#">Contact</a></li>
+    </ul></p>
+    <p><img src="TuteDudeimg.jpeg" alt="TDimg" width="300"/><br>TuteDude and a drink </p>
+    </header> <hr>
+    <main>
+      <section>
+        <h2>AboutTD</h2>
+        <p>TD was founded in 2021. This demo was created by TuteDude for learning all major HTML tag🍔<br> Level up your career with expert mentorship & internship for Free</p>
+        <hr>
+        <h2>Our Menu</h2>
+        <table border="1"><caption>TuteDude Complete Taco Menu</caption>
+      <tr>
+      <th rowspan="2">Category</th>
+      <th rowspan="2">Type</th>
+      <th colspan="2">Small Portion</th>
+      <th colspan="2">Large Portion</th>
+    </tr>
+    <tr>
+      <th>Qty</th>
+      <th>Price</th>
+      <th>Qty</th>
+      <th>Price</th>
+    </tr>
+
+    <tr>
+      <td rowspan="3">TuteDude</td>
+      <td>Crunchy (Beef)</td>
+      <td>1</td>
+      <td>$1.50</td>
+      <td>3</td>
+      <td>$3.25</td>
+    </tr>
+    <tr>
+      <td>Crunchy (Chicken)</td>
+      <td>1</td>
+      <td>$1.75</td>
+      <td>3</td>
+      <td>$3.50</td>
+    </tr>
+    <tr>
+      <td>Crunchy (Veggie)</td>
+      <td>1</td>
+      <td>$1.25</td>
+      <td>3</td>
+      <td>$3.00</td>
+    </tr>
+
+    <tr>
+      <!-- <td colspan="6"><b>Nutrition Info</b> — Calories: 150 kcal | Protein: 5 g | Fiber: 1 g</td> -->
+    </tr>
+
+    <tr>
+      <td rowspan="2">Soft TuteDude</td>
+      <td>Soft (Beef)</td>
+      <td>2</td>
+      <td>$3.50</td>
+      <td></td>
+      <td>$6.50</td>
+    </tr>
+    <tr>
+      <td>Soft (Veggie)</td>
+      <td>2</td>
+      <td>$3.00</td>
+      <td></td>
+      <td>$5.50</td>
+    </tr>
+
+    <tr>
+      <td rowspan="3">Combos</td>
+      <td>2 Crunchy + Drink</td>
+      <td colspan="2" align="center">$4.50</td>
+      <td colspan="2">N/A</td>
+    </tr>
+    <tr>
+      <td>2 Soft + Drink</td>
+      <td colspan="2" align="center">$5.00</td>
+      <td colspan="2">N/A</td>
+    </tr>
+    <tr>
+      <td colspan="5"><b>Combo Meals Nutrition Facts:</b><br>
+        Soft Taco - 200 kcal / 2 g sugar<br>
+        Drink - 120 kcal / 25 g sugar<br>
+        <b>Total:</b> 320 kcal / 27 g sugar
+      </td>
+    </tr>
+
+    <tr>
+      <td rowspan="2">Extras</td>
+      <td>Chips & Salsa</td>
+      <td colspan="4">$2.00</td>
+    </tr>
+    <tr>
+      <td>Guacamole</td>
+      <td colspan="4">$1.50</td>
+    </tr>
+
+    <tr>
+      <td colspan="6"><b>Average Meal Price Range:</b> $2.00 - $6.50</td>
+    </tr>
+  </table>
+  </section>
+    
+    <hr>
+    <a href="#">Back to Top</a>
+    <section>
+       <h2>
+        Taco Trivia
+       </h2>
+      <p>>When did TuteDude first appear in the United State?</p>
+    </section>
+    <hr>
+  <h2>Media Fun</h2>
+  <p>Listen to Taco Music</p>
+  <audio controls>
+  <source src="audiofile.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+<h2>Watch Taco Video</h2>
+<video width="300" controls>
+  <source src="taco-video.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+<hr>
+<h2>Give Us Your Feedback</h2>
+
+<form action="#" method="post">
+  <fieldset>
+    <legend>Your Info</legend>
+
+    <label for="name">Name:</label><br>
+    <input type="text" id="name" name="name" required><br><br>
+
+    <label for="email">Email:</label><br>
+    <input type="email" id="email" name="email" required><br><br>
+
+    <label for="taco">Favorite Taco:</label><br>
+    <select id="taco" name="taco">
+      <option value="crunchy">Crunchy</option>
+      <option value="soft">Soft</option>
+      <option value="spicy">Spicy</option>
+    </select><br><br>
+
+    <label for="message">Your Message:</label><br>
+    <textarea id="message" name="message" rows="4" cols="40" placeholder="Write your feedback here..."></textarea><br><br>
+
+    <input type="submit" value="Submit">
+  </fieldset>
+</form>
+</main>
+<footer>
+  <h2>Contact Us</h2>
+  <p>
+    TuteDude<br>123 Taco Street<br>Taco Town,Tx 75000<br>
+    <a href="#" alt="">info@tutedue.com</a>
+  </p>
+  <p>
+    2025 tutedue. All right reseverd.
+  </p>
+</footer>
+  
+    
+
+</body>
+</html>
